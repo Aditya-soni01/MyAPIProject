@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using MyAPIProject.Data;
 using MyAPIProject.Middleware;
 using Serilog;
 using System.Text;
+using System.Threading.RateLimiting;
 
 namespace MyAPIProject;
 
@@ -120,7 +122,23 @@ public class Program
                 }
             });
         });
+
+        // Add RateLimiter
+        builder.Services.AddRateLimiter(options => 
+        {
+            //Configure the rate limiting options
+            options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+            //Fixed Window Rate Limiter
+            options.AddFixedWindowLimiter("fixed", options => 
+            {
+                options.PermitLimit = 3; // allow 10 requests
+                options.Window = TimeSpan.FromSeconds(10); // per 10 seconds
+                options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+                options.QueueLimit = 0; // allow 2 requests in the queue
+            });
+        });
     }
+
 
     private static void ConfigureMiddleware(WebApplication app)
     {
@@ -134,6 +152,7 @@ public class Program
 
         // Comment out HTTPS redirection in development
         // app.UseHttpsRedirection();
+        
 
         // Use CORS
         app.UseCors("AllowSpecificOrigin");
@@ -146,7 +165,8 @@ public class Program
 
         app.UseAuthentication();
         app.UseAuthorization();
-
+        //Use RateLimiter
+        app.UseRateLimiter();
         app.MapControllers();
 
         // Add a default route

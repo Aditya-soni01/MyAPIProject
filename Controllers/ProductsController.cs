@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MyAPIProject.Data;
 using MyAPIProject.Models;
 using MyAPIProject.Exceptions;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace MyAPIProject.Controllers
 {
@@ -15,13 +16,15 @@ namespace MyAPIProject.Controllers
         private readonly ApplicationDbContext _context;
         private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(ApplicationDbContext context, ILogger<ProductsController> logger)
+        public ProductsController(ApplicationDbContext context)
         {
             _context = context;
-            _logger = logger;
+            //_logger = logger;
         }
 
         [HttpGet]
+        [EnableRateLimiting("fixed")]
+
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             try
@@ -36,6 +39,8 @@ namespace MyAPIProject.Controllers
         }
 
         [HttpGet("{id}")]
+        [EnableRateLimiting("fixed")]
+
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             var product = await _context.Products.FindAsync(id);
@@ -45,6 +50,7 @@ namespace MyAPIProject.Controllers
         }
 
         [HttpPost]
+        [EnableRateLimiting("fixed")]
         public async Task<ActionResult<Product>> CreateProduct(Product product)
         {
             try
@@ -65,6 +71,7 @@ namespace MyAPIProject.Controllers
         }
 
         [HttpPut("{id}")]
+        [EnableRateLimiting("fixed")]
         public async Task<IActionResult> UpdateProduct(int id, Product product)
         {
             if (id != product.Id)
@@ -87,6 +94,7 @@ namespace MyAPIProject.Controllers
         }
 
         [HttpDelete("{id}")]
+        [EnableRateLimiting("fixed")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             var product = await _context.Products.FindAsync(id);
