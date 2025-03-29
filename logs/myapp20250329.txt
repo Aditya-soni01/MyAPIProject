@@ -1,0 +1,39 @@
+2025-03-29 21:44:34.493 +05:30 [INF] User profile is available. Using 'C:\Users\ADITYA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 21:44:35.519 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-29 21:44:35.556 +05:30 [INF] Now listening on: http://localhost:5000
+2025-03-29 21:44:35.558 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 21:44:35.560 +05:30 [INF] Hosting environment: Development
+2025-03-29 21:44:35.562 +05:30 [INF] Content root path: D:\Repos\DotNet\MyAPIProject
+2025-03-29 21:44:39.201 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2025-03-29 21:44:39.786 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 301 0 - 588.4857ms
+2025-03-29 21:44:39.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/index.html - -
+2025-03-29 21:44:40.030 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - - - 200 - text/html;charset=utf-8 183.9275ms
+2025-03-29 21:44:40.292 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui.css - -
+2025-03-29 21:44:40.346 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-29 21:44:40.352 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui.css - - - 200 144929 text/css 59.4927ms
+2025-03-29 21:44:40.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui-bundle.js - -
+2025-03-29 21:44:40.382 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - -
+2025-03-29 21:44:40.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui-standalone-preset.js - -
+2025-03-29 21:44:40.382 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2025-03-29 21:44:40.419 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 13760 application/javascript;+charset=utf-8 37.0261ms
+2025-03-29 21:44:40.424 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-03-29 21:44:40.451 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-03-29 21:44:40.452 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 64.5419ms
+2025-03-29 21:44:40.455 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui-bundle.js - - - 200 1061536 text/javascript 84.5265ms
+2025-03-29 21:44:40.728 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 346.4949ms
+2025-03-29 21:44:41.068 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2025-03-29 21:44:41.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon-32x32.png - -
+2025-03-29 21:44:41.072 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-29 21:44:41.075 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon-32x32.png - - - 200 628 image/png 4.9380ms
+2025-03-29 21:44:41.260 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 192.0442ms
+2025-03-29 21:47:15.031 +05:30 [INF] User profile is available. Using 'C:\Users\ADITYA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-29 21:47:15.209 +05:30 [WRN] Overriding address(es) 'https://localhost:50162, http://localhost:50163'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-29 21:47:15.227 +05:30 [INF] Now listening on: http://localhost:5000
+2025-03-29 21:47:15.229 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-29 21:47:15.230 +05:30 [INF] Hosting environment: Development
+2025-03-29 21:47:15.232 +05:30 [INF] Content root path: D:\Repos\DotNet\MyAPIProject
+2025-03-29 21:47:21.247 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/index.html - -
+2025-03-29 21:47:21.479 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - - - 200 - text/html;charset=utf-8 234.9046ms
+2025-03-29 21:47:21.886 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2025-03-29 21:47:22.043 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.0499ms
+2025-03-29 21:48:02.045 +05:30 [INF] Application is shutting down...

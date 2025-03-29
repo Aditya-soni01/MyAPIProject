@@ -1,0 +1,7 @@
+2025-03-15 16:19:51.229 +05:30 [INF] User profile is available. Using 'C:\Users\ADITYA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 16:19:51.432 +05:30 [WRN] Overriding address(es) 'https://localhost:50162, http://localhost:50163'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-15 16:19:51.448 +05:30 [INF] Now listening on: http://localhost:5000
+2025-03-15 16:19:51.454 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 16:19:51.458 +05:30 [INF] Hosting environment: Development
+2025-03-15 16:19:51.461 +05:30 [INF] Content root path: D:\Repos\DotNet\MyAPIProject
+2025-03-15 16:20:27.269 +05:30 [INF] Application is shutting down...

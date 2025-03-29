@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gAezFpE+HoBh7RGyXdXvHszlG5Gm6IkGlCFAF8CVR96hh0dU7UbfJ8v+1NPa9LrRsU7I7967dcRefyFNQ9VRrA==",
+  "dgSpecHash": "w01WFzUNtYk=",
   "success": true,
   "projectFilePath": "D:\\Repos\\DotNet\\MyAPIProject\\MyAPIProject.csproj",
   "expectedPackageFiles": [
@@ -89,7 +89,11 @@
     "C:\\Users\\ADITYA\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\ADITYA\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\ADITYA\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\ADITYA\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\ADITYA\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ADITYA\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ADITYA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ADITYA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\ADITYA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

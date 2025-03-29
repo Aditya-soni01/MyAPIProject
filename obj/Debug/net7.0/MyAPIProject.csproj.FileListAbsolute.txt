@@ -5,6 +5,7 @@ D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.AssemblyInfo.cs
 D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.csproj.CoreCompileInputs.cache
 D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.MvcApplicationPartsAssemblyInfo.cs
 D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.sourcelink.json
 D:\Repos\DotNet\MyAPIProject\bin\Debug\net7.0\appsettings.json
 D:\Repos\DotNet\MyAPIProject\bin\Debug\net7.0\MyAPIProject.exe
 D:\Repos\DotNet\MyAPIProject\bin\Debug\net7.0\MyAPIProject.deps.json
@@ -82,3 +83,6 @@ D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\refint\MyAPIProject.dll
 D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.pdb
 D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\MyAPIProject.genruntimeconfig.cache
 D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\ref\MyAPIProject.dll
+D:\Repos\DotNet\MyAPIProject\bin\Debug\net7.0\MyAPIProject.staticwebassets.endpoints.json
+D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\Repos\DotNet\MyAPIProject\obj\Debug\net7.0\staticwebassets\msbuild.MyAPIProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
